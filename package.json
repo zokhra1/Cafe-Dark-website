@@ -1,0 +1,23 @@
+{
+  "name": "cafe-dark",
+  "version": "1.0.0",
+  "description": "cafe",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "--dist-dir./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zokhra1/Cafe-Dark-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zokhra1/Cafe-Dark-website/issues"
+  },
+  "homepage": "https://github.com/zokhra1/Cafe-Dark-website#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  }
+}

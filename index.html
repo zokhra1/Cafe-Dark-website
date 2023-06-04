@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Dark Coffee</title>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header ">
+     
+      <nav class="nav nav-open ">
+       
+        <img
+          src="./Black_White_Simple_Coffee_Shop_Logo-removebg-preview.png"
+          alt="Cafe logo"
+          class="nav__logo"
+          id="logo"
+          degigner="zohra"
+        />
+        <div class="main-nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Catering/Events</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Reservation</a
+            >
+          </li>
+        </ul>
+</div>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </nav>
+
+      
+
+
+      <div class="header__title">
+        <h1>
+          Indulge in
+          <!-- Green highlight effect -->
+          <span class="highlight">Warmth</span>
+          and<br />
+          <span class="highlight">Delightful </span> Coffee
+        </h1>
+        <h4>Awaken Your Senses, One Sip at a Time.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="./Untitled_design__1_-removebg-preview.png"
+          class="header__img"
+          alt="Minimalist coffee items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a coffee and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="./sincerely-media-VNsdEl1gORk-unsplash.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <ion-icon name="wine-outline"></ion-icon>
+          </div>
+          <h5 class="features__header">Cozy Ambiance</h5>
+          <p>
+            Step into our café and immerse yourself in a warm and inviting
+            atmosphere. Our cozy seating areas, soft lighting, and carefully
+            curated décor create a comfortable and relaxing space where you can
+            unwind and enjoy your time.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <ion-icon name="cafe-outline"></ion-icon>
+          </div>
+          <h5 class="features__header">Artisanal Coffee</h5>
+          <p>
+            Coffee enthusiasts rejoice! We take pride in our expertly brewed,
+            artisanal coffee. From rich espressos to velvety cappuccinos, our
+            skilled baristas use premium beans and precise brewing techniques to
+            deliver a satisfying coffee experience.
+          </p>
+        </div>
+        <img
+          src="./tyler-nix-jE-27l7V3NU-unsplash.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="./john-matychuk-gUK3lA3K7Yo-unsplash.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <ion-icon name="musical-notes-outline"></ion-icon>
+          </div>
+          <h5 class="features__header">Live Music and Events</h5>
+          <p>
+            Immerse yourself in the vibrant energy of our café with live music
+            and events. We host talented local musicians, artists, and
+            performers, creating a lively and entertaining atmosphere for you to
+            enjoy alongside your meal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Catering/Events</h2>
+        <h3 class="section__header">
+          Catering Services for Your Café Experience
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Intimate Gatherings
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Café-Inspired Catering
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Afternoon Tea Catering
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <ion-icon name="sparkles-outline"></ion-icon>
+          </div>
+          <h5 class="operations__header">
+            Intimate Gatherings
+          </h5>
+          <p>
+            Host intimate gatherings at our café and create cherished memories with your loved ones. Whether it's a small birthday celebration, a bridal shower, or a baby shower, our café provides a cozy and charming setting for your special event.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <ion-icon name="star-half-outline"></ion-icon>
+          </div>
+          <h5 class="operations__header">
+            Café-Inspired Catering
+          </h5>
+          <p>
+            Bring the unique flavors of our café to your off-site events with our café-inspired catering services. Whether it's a corporate luncheon, a community event, or a social gathering, we'll deliver the same exceptional quality and taste that you love about our café.
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <ion-icon name="locate-outline"></ion-icon>
+          </div>
+          <h5 class="operations__header">
+            Afternoon Tea Catering
+          </h5>
+          <p>
+            Treat your guests to an elegant and delightful afternoon tea experience with our catering services. Whether it's a bridal tea party, a baby shower, or a social gathering, we'll curate a sophisticated menu and create an ambiance reminiscent of a classic tea salon.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Experiences Shared by Our Happy Guests
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best  decision ever!</h5>
+            <blockquote class="testimonial__text">
+              I absolutely love the cozy atmosphere and delicious coffee at Dark Cafe. It has become my go-to spot for a peaceful morning or a productive afternoon. The baristas are always friendly and make the perfect cup of coffee every time. Highly recommended!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./royal-anwar-gDoNB_BCkdE-unsplash.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">John</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./mohammad-faruque-SpIKPT8zeAs-unsplash.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Everything you need in a coffee and more!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Reservation</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="./Black_White_Simple_Coffee_Shop_Logo-removebg-preview.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Zohra Abiyeva</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Do reserve your table <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
